@@ -34,3 +34,12 @@ ExportedObj/
 #Icon?
 Thumbs.db
 ehthumbs.db
+
+# ===============#
+# FMOD generated #
+# ===============#
+fmod_editor.log
+Assets/FMOD/Plugins/Cache.meta
+Assets/FMOD/Plugins/Cache/
+Assets/Plugins.meta
+Assets/Plugins/
