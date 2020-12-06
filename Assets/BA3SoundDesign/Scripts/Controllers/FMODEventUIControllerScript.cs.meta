@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 42f8fc804a031054ab8a184dbbfc381d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mutedVolumeSprite: {fileID: 21300000, guid: 6f7a811b436dad24bb48bad7111253cf, type: 3}
+  - quietVolumeSprite: {fileID: 21300000, guid: 721ec08f8149c69458c1d20ff58ba706, type: 3}
+  - normalVolumeSprite: {fileID: 21300000, guid: d7547c4aea6173f4eb73da014fc1622b, type: 3}
+  - loudVolumeSprite: {fileID: 21300000, guid: 4ee9793dcdb07ba489de0daed3020c56, type: 3}
+  - informationText: {instanceID: 0}
+  - volumeSpriteRenderer: {instanceID: 0}
+  - volumeText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d556346232b01de4a9fc4455355e3ea8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 8404be70184654265930450def6a9037, type: 3}
+  generateWrapperCode: 1
+  wrapperCodePath: Assets/BA3SoundDesign/Scripts/InputActions/GameInputActions.cs
+  wrapperClassName: GameInputActions
+  wrapperCodeNamespace: BA3SoundDesign.InputActions
