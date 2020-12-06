@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e46fe3d2-c41a-4094-ad80-949949e97935}">
+		<property name="assetPath">
+			<value>Benches/GossipBench.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>101.09387755102041</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{38573eca-5b7b-47e8-8d22-f8ce2ed9e8c2}</destination>
+		</relationship>
+	</object>
+</objects>

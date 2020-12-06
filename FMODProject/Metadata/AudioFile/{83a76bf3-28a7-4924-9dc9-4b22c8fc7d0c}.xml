@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{83a76bf3-28a7-4924-9dc9-4b22c8fc7d0c}">
+		<property name="assetPath">
+			<value>BarrelOrgans/MusicBarrelOrgan.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>114.46857142857142</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{38573eca-5b7b-47e8-8d22-f8ce2ed9e8c2}</destination>
+		</relationship>
+	</object>
+</objects>

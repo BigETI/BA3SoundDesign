@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a2d6ba40-d78d-44b5-967d-a61b47f5680b}">
+		<property name="assetPath">
+			<value>Footsteps/Asphalt/Trainers/WalkingSlow/WalkingSlowTrainersAsphaltFootstep_4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.64360544217687077</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{38573eca-5b7b-47e8-8d22-f8ce2ed9e8c2}</destination>
+		</relationship>
+	</object>
+</objects>

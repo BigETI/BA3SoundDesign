@@ -113,6 +113,11 @@ namespace BA3SoundDesign.Controllers
         /// <summary>
         /// Start
         /// </summary>
-        private void Start() => CharacterController = GetComponent<CharacterControllerScript>();
+        private void Start()
+        {
+            CharacterController = GetComponent<CharacterControllerScript>();
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 }

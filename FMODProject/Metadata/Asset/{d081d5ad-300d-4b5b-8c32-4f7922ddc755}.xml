@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{d081d5ad-300d-4b5b-8c32-4f7922ddc755}">
+		<property name="assetPath">
+			<value>Animatronics/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{38573eca-5b7b-47e8-8d22-f8ce2ed9e8c2}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -14,6 +14,13 @@ namespace BA3SoundDesign.Controllers
     public class FMODEventUIControllerScript : MonoBehaviour, IFMODEventUIController
     {
         /// <summary>
+        /// Distance to scale factor
+        /// </summary>
+        [SerializeField]
+        [Range(0.0f, 10.0f)]
+        private float distanceToScaleFactor = 0.1875f;
+
+        /// <summary>
         /// Default colour
         /// </summary>
         [SerializeField]
@@ -80,6 +87,12 @@ namespace BA3SoundDesign.Controllers
         private TextMeshPro volumeText = default;
 
         /// <summary>
+        /// Scale transforms
+        /// </summary>
+        [SerializeField]
+        private Transform[] scaleTransforms = Array.Empty<Transform>();
+
+        /// <summary>
         /// Colourise text meshes
         /// </summary>
         [SerializeField]
@@ -112,6 +125,15 @@ namespace BA3SoundDesign.Controllers
         /// Last volume
         /// </summary>
         private float lastVolume = 0.0f;
+
+        /// <summary>
+        /// Distance to scale factor
+        /// </summary>
+        public float DistanceToScaleFactor
+        {
+            get => Mathf.Max(distanceToScaleFactor, 0.0f);
+            set => distanceToScaleFactor = Mathf.Max(value, 0.0f);
+        }
 
         /// <summary>
         /// Default colour
@@ -213,6 +235,15 @@ namespace BA3SoundDesign.Controllers
         }
 
         /// <summary>
+        /// Scale transforms
+        /// </summary>
+        public Transform[] ScaleTransforms
+        {
+            get => scaleTransforms ?? Array.Empty<Transform>();
+            set => scaleTransforms = value ?? throw new ArgumentNullException(nameof(value));
+        }
+
+        /// <summary>
         /// Colourise text meshes
         /// </summary>
         public TextMeshPro[] ColouriseTextMeshes
@@ -296,6 +327,17 @@ namespace BA3SoundDesign.Controllers
                     {
                         lastVolume = looking_at_fmod_event_controller.Volume;
                         volumeText.text = $"{ Mathf.RoundToInt(lastVolume * 100.0f) }%";
+                    }
+                    float distance_to_scale_factor = DistanceToScaleFactor;
+                    //float distance = (character_controller.LookingAtFMODEventControllerPoint - character_virtual_camera_transform.position).magnitude;
+                    float distance = (transform.position - character_virtual_camera_transform.position).magnitude;
+                    Vector3 scale = Vector3.one * (distance * distance_to_scale_factor);
+                    foreach (Transform scale_transform in ScaleTransforms)
+                    {
+                        if (scale_transform)
+                        {
+                            scale_transform.localScale = scale;
+                        }
                     }
                     Color color = defaultColour;
                     if (looking_at_fmod_event_controller.IsMuted)
