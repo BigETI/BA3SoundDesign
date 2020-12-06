@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Bank" id="{6b42b842-db8b-4d18-8acf-94eb2dd0d4f4}">
+		<property name="name">
+			<value>MerryGoRounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{80135924-b948-479d-98c4-54748f1db442}</destination>
+		</relationship>
+	</object>
+</objects>

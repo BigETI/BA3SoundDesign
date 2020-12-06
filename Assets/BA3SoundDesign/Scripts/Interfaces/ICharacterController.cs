@@ -42,6 +42,16 @@ namespace BA3SoundDesign
         float MaximalLookRayDistance { get; set; }
 
         /// <summary>
+        /// Foot step time
+        /// </summary>
+        float FootStepTime { get; set; }
+
+        /// <summary>
+        /// Sprinting foot step time multiplier
+        /// </summary>
+        float SprintingFootStepTimeMultiplier { get; set; }
+
+        /// <summary>
         /// Character virtual ccamera transform
         /// </summary>
         Transform CharacterVirtualCameraTransform { get; set; }

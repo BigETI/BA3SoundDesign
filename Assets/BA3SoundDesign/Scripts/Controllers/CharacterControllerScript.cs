@@ -1,5 +1,8 @@
-﻿using System;
+﻿using FMODUnity;
+using System;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityTiming.Data;
 
 /// <summary>
 /// BA3 Sound Design controllers namespace
@@ -55,10 +58,30 @@ namespace BA3SoundDesign.Controllers
         private float maximalLookRayDistance = 20.0f;
 
         /// <summary>
+        /// Foot step time
+        /// </summary>
+        [SerializeField]
+        [Range(0.0f, 10.0f)]
+        private float footStepTime = 0.75f;
+
+        /// <summary>
+        /// Sprinting foot step time multiplier
+        /// </summary>
+        [SerializeField]
+        [Range(0.0f, 10.0f)]
+        private float sprintingFootStepTimeMultiplier = 2.0f;
+
+        /// <summary>
         /// Character virtual camera transform
         /// </summary>
         [SerializeField]
-        private Transform characterVirtualCameraTransform;
+        private Transform characterVirtualCameraTransform = default;
+
+        /// <summary>
+        /// On foot stepped
+        /// </summary>
+        [SerializeField]
+        private UnityEvent onFootStepped = default;
 
         /// <summary>
         /// Movement
@@ -74,6 +97,11 @@ namespace BA3SoundDesign.Controllers
         /// Look direction delta
         /// </summary>
         private Vector2 lookDirectionDelta;
+
+        /// <summary>
+        /// Foot step timing
+        /// </summary>
+        private TimingData footStepTiming;
 
         /// <summary>
         /// Raycast hits
@@ -135,6 +163,24 @@ namespace BA3SoundDesign.Controllers
         }
 
         /// <summary>
+        /// Foot step time
+        /// </summary>
+        public float FootStepTime
+        {
+            get => Mathf.Max(footStepTime, 0.0f);
+            set => footStepTime = Mathf.Max(value, 0.0f);
+        }
+
+        /// <summary>
+        /// Sprinting foot step time multiplier
+        /// </summary>
+        public float SprintingFootStepTimeMultiplier
+        {
+            get => Mathf.Max(sprintingFootStepTimeMultiplier, 0.0f);
+            set => sprintingFootStepTimeMultiplier = Mathf.Max(value, 0.0f);
+        }
+
+        /// <summary>
         /// Character virtual ccamera transform
         /// </summary>
         public Transform CharacterVirtualCameraTransform
@@ -183,7 +229,7 @@ namespace BA3SoundDesign.Controllers
         /// <summary>
         /// Is on ground
         /// </summary>
-        public bool IsOnGround { get; private set; }
+        public bool IsOnGround => CharacterController ? CharacterController.isGrounded : false;
 
         /// <summary>
         /// Looking at interactable controller
@@ -211,6 +257,11 @@ namespace BA3SoundDesign.Controllers
         public CharacterController CharacterController { get; private set; }
 
         /// <summary>
+        /// On foot stepped
+        /// </summary>
+        public event FootSteppedDelegate OnFootStepped;
+
+        /// <summary>
         /// Jump
         /// </summary>
         public void Jump()
@@ -218,7 +269,6 @@ namespace BA3SoundDesign.Controllers
             if (IsOnGround)
             {
                 GravitationalVelocity = new Vector3(GravitationalVelocity.x, Mathf.Sqrt(-2.0f * JumpHeight * Physics.gravity.y), GravitationalVelocity.z);
-                IsOnGround = false;
             }
         }
 
@@ -236,7 +286,11 @@ namespace BA3SoundDesign.Controllers
         /// <summary>
         /// Start
         /// </summary>
-        private void Start() => CharacterController = GetComponent<CharacterController>();
+        private void Start()
+        {
+            CharacterController = GetComponent<CharacterController>();
+            footStepTiming = new TimingData(footStepTime);
+        }
 
         /// <summary>
         /// Fixed update
@@ -257,8 +311,9 @@ namespace BA3SoundDesign.Controllers
                 {
                     world_movement.Normalize();
                 }
-                CollisionFlags collision_flags = CharacterController.Move(((world_movement * MovementSpeed * (IsSprinting ? SprintMultiplier : 1.0f)) + GravitationalVelocity) * Time.fixedDeltaTime);
-                IsOnGround = ((collision_flags & CollisionFlags.Below) == CollisionFlags.Below);
+                /*CollisionFlags collision_flags = */
+                CharacterController.Move(((world_movement * MovementSpeed * (IsSprinting ? SprintMultiplier : 1.0f)) + GravitationalVelocity) * Time.fixedDeltaTime);
+                // TODO: Implement surfing on ground
                 if (IsOnGround && (GravitationalVelocity.y < 0.0f))
                 {
                     GravitationalVelocity = new Vector3(GravitationalVelocity.x, 0.0f, GravitationalVelocity.z);
@@ -282,7 +337,7 @@ namespace BA3SoundDesign.Controllers
                     if (!LookingAtFMODEventController)
                     {
                         FMODEventControllerScript fmod_event_controller = raycast_hit.collider.GetComponentInParent<FMODEventControllerScript>();
-                        if (fmod_event_controller)
+                        if (fmod_event_controller && fmod_event_controller.IsInteractable)
                         {
                             LookingAtFMODEventController = fmod_event_controller;
                             LookingAtFMODEventControllerPoint = raycast_hit.point;
@@ -298,6 +353,16 @@ namespace BA3SoundDesign.Controllers
                         }
                     }
                 }
+            }
+            RuntimeManager.StudioSystem.setParameterByName("Sprinting", IsSprinting ? 1.0f : 0.0f);
+            int ticks = footStepTiming.ProceedTime(Time.fixedDeltaTime * movement.magnitude * (IsSprinting ? sprintingFootStepTimeMultiplier : 1.0f));
+            for (int index = 0; index < ticks; index++)
+            {
+                if (onFootStepped != null)
+                {
+                    onFootStepped.Invoke();
+                }
+                OnFootStepped?.Invoke();
             }
         }
     }

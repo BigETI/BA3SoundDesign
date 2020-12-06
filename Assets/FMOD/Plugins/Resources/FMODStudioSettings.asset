@@ -380,8 +380,26 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Character
-  - Environment
+  - Ambience
+  - Animatronics
+  - BarrelOrgans
+  - Bears
+  - Benches
+  - Booths
+  - CapuchinMonkeys
+  - Dragons
+  - Elephants
+  - Entrances
+  - Footsteps
+  - Forests
+  - Fountains
+  - Lakes
+  - Lions
+  - MerryGoRounds
+  - Restrooms
+  - RollerCoasters
+  - Shops
+  - Videos
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

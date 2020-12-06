@@ -22,6 +22,11 @@ namespace BA3SoundDesign
         string FMODEventPath { get; set; }
 
         /// <summary>
+        /// Is interactable
+        /// </summary>
+        bool IsInteractable { get; set; }
+
+        /// <summary>
         /// Is playing on start
         /// </summary>
         bool IsPlayingOnStart { get; set; }
@@ -95,5 +100,10 @@ namespace BA3SoundDesign
         /// </summary>
         /// <returns>"true" if successful, otherwise "false"</returns>
         bool Stop();
+
+        /// <summary>
+        /// Play one shot
+        /// </summary>
+        void PlayOneShot();
     }
 }

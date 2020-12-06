@@ -12,7 +12,6 @@ namespace BA3SoundDesign.Controllers
     /// <summary>
     /// FMOD event controller script class
     /// </summary>
-    [RequireComponent(typeof(SphereCollider))]
     public class FMODEventControllerScript : MonoBehaviour, IFMODEventController
     {
         /// <summary>
@@ -32,6 +31,12 @@ namespace BA3SoundDesign.Controllers
         [SerializeField]
         [EventRef]
         private string fmodEventPath;
+
+        /// <summary>
+        /// Is interactable
+        /// </summary>
+        [SerializeField]
+        private bool isInteractable = true;
 
         /// <summary>
         /// Is playing on start
@@ -86,6 +91,15 @@ namespace BA3SoundDesign.Controllers
                     Replay();
                 }
             }
+        }
+
+        /// <summary>
+        /// Is interactable
+        /// </summary>
+        public bool IsInteractable
+        {
+            get => isInteractable;
+            set => isInteractable = value;
         }
 
         /// <summary>
@@ -242,6 +256,11 @@ namespace BA3SoundDesign.Controllers
         /// </summary>
         /// <returns>"true" if successful, otherwise "false"</returns>
         public bool Stop() => IsPlaying && (FMODEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT) == RESULT.OK);
+
+        /// <summary>
+        /// Play one shot
+        /// </summary>
+        public void PlayOneShot() => RuntimeManager.PlayOneShot(fmodEventPath, transform.position);
 
         /// <summary>
         /// On enable

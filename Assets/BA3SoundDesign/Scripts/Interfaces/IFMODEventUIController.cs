@@ -13,6 +13,11 @@ namespace BA3SoundDesign
     public interface IFMODEventUIController : IBehaviour
     {
         /// <summary>
+        /// Distance to scale factor
+        /// </summary>
+        float DistanceToScaleFactor { get; set; }
+
+        /// <summary>
         /// Default colour
         /// </summary>
         Color DefaultColour { get; set; }
@@ -66,6 +71,11 @@ namespace BA3SoundDesign
         /// Volume text
         /// </summary>
         TextMeshPro VolumeText { get; set; }
+
+        /// <summary>
+        /// Scale transforms
+        /// </summary>
+        Transform[] ScaleTransforms { get; set; }
 
         /// <summary>
         /// Colourise text meshes
