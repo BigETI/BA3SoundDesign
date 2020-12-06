@@ -13,3 +13,7 @@ This project contains an environment with sounds for our BA3 Sound Design projec
 1. Fork this repository or rebase your fork
 2. Make your changes
 3. Create a pull request
+
+# Credits
+
+- [Polygon Prototype](https://syntystore.com/products/polygon-prototype-pack)
