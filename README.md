@@ -23,7 +23,7 @@ This project contains an environment with sounds for our BA3 Sound Design projec
 - Leonard Nicolai Liebler
 - Sarah Kempken
 
-## Assets
+## Sources
 - Ambience
   - [ASMR soundscape -  Magical Theme Park Ambience (happy crowds, fireworks, roller coaster sounds)](https://www.youtube.com/watch?v=oHT9a0KOpeU)
 - Animatronics
