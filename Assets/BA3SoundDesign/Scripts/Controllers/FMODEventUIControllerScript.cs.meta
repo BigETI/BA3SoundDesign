@@ -8,8 +8,13 @@ MonoImporter:
   - quietVolumeSprite: {fileID: 21300000, guid: 721ec08f8149c69458c1d20ff58ba706, type: 3}
   - normalVolumeSprite: {fileID: 21300000, guid: d7547c4aea6173f4eb73da014fc1622b, type: 3}
   - loudVolumeSprite: {fileID: 21300000, guid: 4ee9793dcdb07ba489de0daed3020c56, type: 3}
+  - mutedVolumeOutlineSprite: {fileID: 21300000, guid: 6e6f9429450cf234182a753cbd175fb4, type: 3}
+  - quietVolumeOutlineSprite: {fileID: 21300000, guid: 4d4b8b150b719614a9e6756db69cf8ce, type: 3}
+  - normalVolumeOutlineSprite: {fileID: 21300000, guid: e5e9df3e0dbc3274d8e37734f922a5ee, type: 3}
+  - loudVolumeOutlineSprite: {fileID: 21300000, guid: b116f6d3ba6c9fc448b0161a74b55b42, type: 3}
   - informationText: {instanceID: 0}
   - volumeSpriteRenderer: {instanceID: 0}
+  - volumeOutlineSpriteRenderer: {instanceID: 0}
   - volumeText: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}

@@ -227,11 +227,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 2
-  sprintMultiplier: 2.142857
-  jumpHeight: 1.25
+  sprintMultiplier: 3
+  jumpHeight: 0.75
   minimalPitchAngle: -90
   maximalPitchAngle: 90
-  maximalLookRayDistance: 20
+  maximalLookRayDistance: 10
   footStepTime: 0.75
   sprintingFootStepTimeMultiplier: 2
   characterVirtualCameraTransform: {fileID: 8572332639431198295}
