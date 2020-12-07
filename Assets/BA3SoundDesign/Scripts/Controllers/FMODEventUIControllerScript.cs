@@ -361,6 +361,10 @@ namespace BA3SoundDesign.Controllers
         /// </summary>
         private void Update()
         {
+            if (!PlayerController)
+            {
+                PlayerController = FindObjectOfType<PlayerControllerScript>();
+            }
             if (PlayerController && PlayerController.CharacterController && PlayerController.CharacterController.CharacterVirtualCameraTransform)
             {
                 CharacterControllerScript character_controller = PlayerController.CharacterController;

@@ -311,7 +311,6 @@ namespace BA3SoundDesign.Controllers
                 {
                     world_movement.Normalize();
                 }
-                /*CollisionFlags collision_flags = */
                 CharacterController.Move(((world_movement * MovementSpeed * (IsSprinting ? SprintMultiplier : 1.0f)) + GravitationalVelocity) * Time.fixedDeltaTime);
                 // TODO: Implement surfing on ground
                 if (IsOnGround && (GravitationalVelocity.y < 0.0f))
@@ -355,14 +354,17 @@ namespace BA3SoundDesign.Controllers
                 }
             }
             RuntimeManager.StudioSystem.setParameterByName("Sprinting", IsSprinting ? 1.0f : 0.0f);
-            int ticks = footStepTiming.ProceedTime(Time.fixedDeltaTime * movement.magnitude * (IsSprinting ? sprintingFootStepTimeMultiplier : 1.0f));
-            for (int index = 0; index < ticks; index++)
+            if (IsOnGround)
             {
-                if (onFootStepped != null)
+                int ticks = footStepTiming.ProceedTime(Time.fixedDeltaTime * movement.magnitude * (IsSprinting ? sprintingFootStepTimeMultiplier : 1.0f));
+                for (int index = 0; index < ticks; index++)
                 {
-                    onFootStepped.Invoke();
+                    if (onFootStepped != null)
+                    {
+                        onFootStepped.Invoke();
+                    }
+                    OnFootStepped?.Invoke();
                 }
-                OnFootStepped?.Invoke();
             }
         }
     }

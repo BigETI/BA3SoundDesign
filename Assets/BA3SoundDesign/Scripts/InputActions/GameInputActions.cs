@@ -21,6 +21,14 @@ namespace BA3SoundDesign.InputActions
             ""id"": ""bff89d64-67a7-4fdb-b854-a5c935008157"",
             ""actions"": [
                 {
+                    ""name"": ""Any"",
+                    ""type"": ""Button"",
+                    ""id"": ""1dbc2a11-6f1e-484a-ba97-c024502911a4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
                     ""name"": ""Interact"",
                     ""type"": ""Button"",
                     ""id"": ""e7a8a92e-2be2-4bb4-b331-ffbdee6a817f"",
@@ -431,6 +439,138 @@ namespace BA3SoundDesign.InputActions
                     ""action"": ""LookAnalogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""01120dc1-bad6-4d85-aea7-0fe7cade29ab"",
+                    ""path"": ""*/{Back}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9d746e25-c94b-4ecf-b83a-d07825dec4eb"",
+                    ""path"": ""*/{Cancel}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""04ad6bee-ee1c-439e-8bdf-bff153a96581"",
+                    ""path"": ""*/{Forward}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""26cefe10-7c6d-4620-9e33-f6f0ac33a81f"",
+                    ""path"": ""*/{Menu}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bd5610cb-ca58-4ff5-a85c-a654cf71af5c"",
+                    ""path"": ""*/{Modifier}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""afd5005e-b070-4f9a-af16-9179b9d86f8f"",
+                    ""path"": ""*/{PrimaryAction}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c085a8b9-8e3d-4947-b554-7ea423150f81"",
+                    ""path"": ""*/{PrimaryTrigger}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a212ef19-31b7-4324-93bc-b93228626a3c"",
+                    ""path"": ""*/{SecondaryAction}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""57cd74a0-f423-4f7f-b97a-3d5341eb1d4b"",
+                    ""path"": ""*/{SecondaryTrigger}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""598f479d-226a-4681-9c02-03116577b281"",
+                    ""path"": ""*/{Submit}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f32922cf-9c3e-48c2-921f-2b0eaa88bb3e"",
+                    ""path"": ""<Keyboard>/anyKey"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""392523c4-24b2-4f64-a3dc-55292bdb4e3b"",
+                    ""path"": ""<Mouse>/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Any"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -461,6 +601,7 @@ namespace BA3SoundDesign.InputActions
 }");
             // GameActionMap
             m_GameActionMap = asset.FindActionMap("GameActionMap", throwIfNotFound: true);
+            m_GameActionMap_Any = m_GameActionMap.FindAction("Any", throwIfNotFound: true);
             m_GameActionMap_Interact = m_GameActionMap.FindAction("Interact", throwIfNotFound: true);
             m_GameActionMap_Jump = m_GameActionMap.FindAction("Jump", throwIfNotFound: true);
             m_GameActionMap_Look = m_GameActionMap.FindAction("Look", throwIfNotFound: true);
@@ -520,6 +661,7 @@ namespace BA3SoundDesign.InputActions
         // GameActionMap
         private readonly InputActionMap m_GameActionMap;
         private IGameActionMapActions m_GameActionMapActionsCallbackInterface;
+        private readonly InputAction m_GameActionMap_Any;
         private readonly InputAction m_GameActionMap_Interact;
         private readonly InputAction m_GameActionMap_Jump;
         private readonly InputAction m_GameActionMap_Look;
@@ -534,6 +676,7 @@ namespace BA3SoundDesign.InputActions
         {
             private @GameInputActions m_Wrapper;
             public GameActionMapActions(@GameInputActions wrapper) { m_Wrapper = wrapper; }
+            public InputAction @Any => m_Wrapper.m_GameActionMap_Any;
             public InputAction @Interact => m_Wrapper.m_GameActionMap_Interact;
             public InputAction @Jump => m_Wrapper.m_GameActionMap_Jump;
             public InputAction @Look => m_Wrapper.m_GameActionMap_Look;
@@ -553,6 +696,9 @@ namespace BA3SoundDesign.InputActions
             {
                 if (m_Wrapper.m_GameActionMapActionsCallbackInterface != null)
                 {
+                    @Any.started -= m_Wrapper.m_GameActionMapActionsCallbackInterface.OnAny;
+                    @Any.performed -= m_Wrapper.m_GameActionMapActionsCallbackInterface.OnAny;
+                    @Any.canceled -= m_Wrapper.m_GameActionMapActionsCallbackInterface.OnAny;
                     @Interact.started -= m_Wrapper.m_GameActionMapActionsCallbackInterface.OnInteract;
                     @Interact.performed -= m_Wrapper.m_GameActionMapActionsCallbackInterface.OnInteract;
                     @Interact.canceled -= m_Wrapper.m_GameActionMapActionsCallbackInterface.OnInteract;
@@ -587,6 +733,9 @@ namespace BA3SoundDesign.InputActions
                 m_Wrapper.m_GameActionMapActionsCallbackInterface = instance;
                 if (instance != null)
                 {
+                    @Any.started += instance.OnAny;
+                    @Any.performed += instance.OnAny;
+                    @Any.canceled += instance.OnAny;
                     @Interact.started += instance.OnInteract;
                     @Interact.performed += instance.OnInteract;
                     @Interact.canceled += instance.OnInteract;
@@ -632,6 +781,7 @@ namespace BA3SoundDesign.InputActions
         }
         public interface IGameActionMapActions
         {
+            void OnAny(InputAction.CallbackContext context);
             void OnInteract(InputAction.CallbackContext context);
             void OnJump(InputAction.CallbackContext context);
             void OnLook(InputAction.CallbackContext context);

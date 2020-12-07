@@ -1,0 +1,1208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9137922548712127649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Videos/ASMR
+  m_EditorClassIdentifier: 
+  Path: event:/Videos/ASMR
+  guid: ee92b94b39e5c84ca72984de691226e6
+  Banks:
+  - {fileID: 7560031481970567287}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1431797
+--- !u!114 &-8442600776159240990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fountains/Fountain
+  m_EditorClassIdentifier: 
+  Path: event:/Fountains/Fountain
+  guid: fc9a0f767710eb47bd7dbd8c2848cc8d
+  Banks:
+  - {fileID: 6445073075650175221}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 872885
+--- !u!114 &-8119370408524734145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Benches/Gossip
+  m_EditorClassIdentifier: 
+  Path: event:/Benches/Gossip
+  guid: 5eb1f62e084f2b468cbdf1ea5a2c95b9
+  Banks:
+  - {fileID: -6748596197317409670}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 101093
+--- !u!114 &-7787006545204318498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MerryGoRounds.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/MerryGoRounds.bank
+  Name: MerryGoRounds
+  lastModified: 637428626355354513
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7245098694806393000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BarrelOrgans/Music
+  m_EditorClassIdentifier: 
+  Path: event:/BarrelOrgans/Music
+  guid: b4a29b86b7950b4c884820e39446cd08
+  Banks:
+  - {fileID: -810674585378712487}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 114468
+--- !u!114 &-6962350650783583476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Animatronics.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Animatronics.bank
+  Name: Animatronics
+  lastModified: 637428626353235165
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6748596197317409670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Benches.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Benches.bank
+  Name: Benches
+  lastModified: 637428626353505082
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6455962808974151537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RollerCoasters.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/RollerCoasters.bank
+  Name: RollerCoasters
+  lastModified: 637429151870135874
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6389665180946329321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Booths.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Booths.bank
+  Name: Booths
+  lastModified: 637428626353565063
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6374223428677959665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lakes/Ducks2
+  m_EditorClassIdentifier: 
+  Path: event:/Lakes/Ducks2
+  guid: 5e3a6a61bc96cf4a8ae16d52fb46491c
+  Banks:
+  - {fileID: -4360304651241435651}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36284
+--- !u!114 &-6228673847647847318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Booths/ElectronicGame
+  m_EditorClassIdentifier: 
+  Path: event:/Booths/ElectronicGame
+  guid: 0eca8949d3708840b577a84958ec54ee
+  Banks:
+  - {fileID: -6389665180946329321}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &-5715184954279569144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bears.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Bears.bank
+  Name: Bears
+  lastModified: 637428626353415110
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4899780918355989066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Ambience.bank
+  Name: Ambience
+  lastModified: 637428626352025540
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4726864511821103803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps/Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps/Footstep
+  guid: c9d869631079114c997eb00e628686d3
+  Banks:
+  - {fileID: 4344387334339281866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4569327613535592779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Entrances/CashingIn
+  m_EditorClassIdentifier: 
+  Path: event:/Entrances/CashingIn
+  guid: 4defb15b68408c46a3457d6d2291ce86
+  Banks:
+  - {fileID: -2887209386742488228}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64091
+--- !u!114 &-4360304651241435651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Lakes.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Lakes.bank
+  Name: Lakes
+  lastModified: 637428626355134578
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3496761160435632455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Booths/FunFair
+  m_EditorClassIdentifier: 
+  Path: event:/Booths/FunFair
+  guid: 689438c9e68b97488ce0b5aae9741ec3
+  Banks:
+  - {fileID: -6389665180946329321}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31895
+--- !u!114 &-3425789652939974844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CapuchinMonkeys/CapuchinMonkey
+  m_EditorClassIdentifier: 
+  Path: event:/CapuchinMonkeys/CapuchinMonkey
+  guid: 5062ad85340c134fa5a8aa873cdd7945
+  Banks:
+  - {fileID: 8693374528121952248}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37564
+--- !u!114 &-3070549091824289473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MerryGoRounds/MerryGoRound
+  m_EditorClassIdentifier: 
+  Path: event:/MerryGoRounds/MerryGoRound
+  guid: b117ae6f497cfd43bc2143807de6237f
+  Banks:
+  - {fileID: -7787006545204318498}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120912
+--- !u!114 &-2887209386742488228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Entrances.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Entrances.bank
+  Name: Entrances
+  lastModified: 637429151869975925
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2569699286947101186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Booths/WheelOfFortune
+  m_EditorClassIdentifier: 
+  Path: event:/Booths/WheelOfFortune
+  guid: 760ead1476a6a642bb41c2de072e2cde
+  Banks:
+  - {fileID: -6389665180946329321}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38452
+--- !u!114 &-2477740410242944227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dragons/Growl
+  m_EditorClassIdentifier: 
+  Path: event:/Dragons/Growl
+  guid: 8f4d2f2abe2c594da4d1119b44d0c2ba
+  Banks:
+  - {fileID: 3995750975935781470}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29831
+--- !u!114 &-2320687325630544150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Elephants/Growling
+  m_EditorClassIdentifier: 
+  Path: event:/Elephants/Growling
+  guid: a687c6a7beb0744daec206821f677e6d
+  Banks:
+  - {fileID: 3847886357699519567}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &-2006743887990587890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RollerCoasters/Screams
+  m_EditorClassIdentifier: 
+  Path: event:/RollerCoasters/Screams
+  guid: 71bda585dc3c5e4a8d9060e321ef61f9
+  Banks:
+  - {fileID: -6455962808974151537}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3134
+--- !u!114 &-1472356024980411059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sprinting
+  m_EditorClassIdentifier: 
+  Name: Sprinting
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3086519569
+    data2: 1767045402
+  Exists: 1
+--- !u!114 &-810674585378712487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/BarrelOrgans.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/BarrelOrgans.bank
+  Name: BarrelOrgans
+  lastModified: 637428626353365147
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 671763289190586608}
+  - {fileID: -4899780918355989066}
+  - {fileID: -6962350650783583476}
+  - {fileID: -810674585378712487}
+  - {fileID: -5715184954279569144}
+  - {fileID: -6748596197317409670}
+  - {fileID: -6389665180946329321}
+  - {fileID: 8693374528121952248}
+  - {fileID: 3995750975935781470}
+  - {fileID: 3847886357699519567}
+  - {fileID: -2887209386742488228}
+  - {fileID: 4344387334339281866}
+  - {fileID: 6531901108103545399}
+  - {fileID: 6445073075650175221}
+  - {fileID: -4360304651241435651}
+  - {fileID: 972428711384762730}
+  - {fileID: 3151524513262528140}
+  - {fileID: -7787006545204318498}
+  - {fileID: 3090164480716426073}
+  - {fileID: -6455962808974151537}
+  - {fileID: 8764585728450922030}
+  - {fileID: 7560031481970567287}
+  EditorEvents:
+  - {fileID: 3611240564969376699}
+  - {fileID: 7485518196133350338}
+  - {fileID: 2443993258215154601}
+  - {fileID: 4486445572558205884}
+  - {fileID: 4540494319438611374}
+  - {fileID: -7245098694806393000}
+  - {fileID: 8649621882538331310}
+  - {fileID: -8119370408524734145}
+  - {fileID: 587192043874222103}
+  - {fileID: -6228673847647847318}
+  - {fileID: -3496761160435632455}
+  - {fileID: -2569699286947101186}
+  - {fileID: -3425789652939974844}
+  - {fileID: -2477740410242944227}
+  - {fileID: -2320687325630544150}
+  - {fileID: 671156527543328788}
+  - {fileID: -4569327613535592779}
+  - {fileID: -4726864511821103803}
+  - {fileID: 2278104923062638152}
+  - {fileID: -8442600776159240990}
+  - {fileID: -6374223428677959665}
+  - {fileID: 6457208131077505220}
+  - {fileID: 6434265499932397100}
+  - {fileID: 2083790313529315672}
+  - {fileID: -3070549091824289473}
+  - {fileID: 7123337986262963241}
+  - {fileID: 8750016545087101971}
+  - {fileID: -2006743887990587890}
+  - {fileID: 7633772730061996188}
+  - {fileID: 8178207539786003174}
+  - {fileID: -9137922548712127649}
+  EditorParameters:
+  - {fileID: -1472356024980411059}
+  MasterBanks:
+  - {fileID: 3151524513262528140}
+  StringsBanks:
+  - {fileID: 671763289190586608}
+  stringsBankWriteTime: 637428626355154581
+  cacheVersion: 5
+--- !u!114 &587192043874222103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Benches/ScaredKids
+  m_EditorClassIdentifier: 
+  Path: event:/Benches/ScaredKids
+  guid: aa00197f4fa39f49b022c3738051ed3a
+  Banks:
+  - {fileID: -6748596197317409670}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &671156527543328788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Entrances/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Entrances/Music
+  guid: 20f6069db65b9c46941f2aba3c431c9c
+  Banks:
+  - {fileID: -2887209386742488228}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 174837
+--- !u!114 &671763289190586608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637428626355154581
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3278
+  Exists: 1
+--- !u!114 &972428711384762730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Lions.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Lions.bank
+  Name: Lions
+  lastModified: 637428626355154581
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2083790313529315672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lions/Growling
+  m_EditorClassIdentifier: 
+  Path: event:/Lions/Growling
+  guid: 92c574098d799b49917262b3a8e0c288
+  Banks:
+  - {fileID: 972428711384762730}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &2278104923062638152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Forests/Forest
+  m_EditorClassIdentifier: 
+  Path: event:/Forests/Forest
+  guid: 4bbefa5b642ce848a1da63f97adb919b
+  Banks:
+  - {fileID: 6531901108103545399}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 108355
+--- !u!114 &2443993258215154601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animatronics/SleepingGiant
+  m_EditorClassIdentifier: 
+  Path: event:/Animatronics/SleepingGiant
+  guid: 30cf27c31315954d92aee54cf1937657
+  Banks:
+  - {fileID: -6962350650783583476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 91219
+--- !u!114 &3090164480716426073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Restrooms.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Restrooms.bank
+  Name: Restrooms
+  lastModified: 637428626355424524
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3151524513262528140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637428626355154581
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3611240564969376699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/ThemePark
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/ThemePark
+  guid: 4a2a1f34d788b745bbcbe624dd86194e
+  Banks:
+  - {fileID: -4899780918355989066}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3599986
+--- !u!114 &3847886357699519567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Elephants.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Elephants.bank
+  Name: Elephants
+  lastModified: 637428626353735011
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3995750975935781470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dragons.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Dragons.bank
+  Name: Dragons
+  lastModified: 637428626353635042
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4344387334339281866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  lastModified: 637428626353924949
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4486445572558205884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animatronics/Growl
+  m_EditorClassIdentifier: 
+  Path: event:/Animatronics/Growl
+  guid: a124fc24d9d52044aa2694cfe4056fa2
+  Banks:
+  - {fileID: -6962350650783583476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4540494319438611374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animatronics/CircusPlayhouse
+  m_EditorClassIdentifier: 
+  Path: event:/Animatronics/CircusPlayhouse
+  guid: e70300b12d0615449b054c4f44dfff78
+  Banks:
+  - {fileID: -6962350650783583476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1032933
+--- !u!114 &6434265499932397100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lakes/Ducks1
+  m_EditorClassIdentifier: 
+  Path: event:/Lakes/Ducks1
+  guid: f665360fd6cc28428b2476b1488164ba
+  Banks:
+  - {fileID: -4360304651241435651}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27036
+--- !u!114 &6445073075650175221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Fountains.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Fountains.bank
+  Name: Fountains
+  lastModified: 637428626354874656
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6457208131077505220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lakes/Lake
+  m_EditorClassIdentifier: 
+  Path: event:/Lakes/Lake
+  guid: b4eace42669c3946ab9123b9aed83cda
+  Banks:
+  - {fileID: -4360304651241435651}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 228127
+--- !u!114 &6531901108103545399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Forests.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Forests.bank
+  Name: Forests
+  lastModified: 637428626354044915
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7123337986262963241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Restrooms/Restroom
+  m_EditorClassIdentifier: 
+  Path: event:/Restrooms/Restroom
+  guid: 2b5e64d7adb13147ace7c526f8b9b8af
+  Banks:
+  - {fileID: 3090164480716426073}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 101026
+--- !u!114 &7485518196133350338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animatronics/VintageClown
+  m_EditorClassIdentifier: 
+  Path: event:/Animatronics/VintageClown
+  guid: 01f95ad4a7fedb469d36bd2745cf241c
+  Banks:
+  - {fileID: -6962350650783583476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60839
+--- !u!114 &7560031481970567287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Videos.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Videos.bank
+  Name: Videos
+  lastModified: 637429151871675399
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7633772730061996188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shops/Snacks
+  m_EditorClassIdentifier: 
+  Path: event:/Shops/Snacks
+  guid: 39c7736ee37c33489939f2a4ac42e516
+  Banks:
+  - {fileID: 8764585728450922030}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 568215
+--- !u!114 &8178207539786003174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shops/Popcorn
+  m_EditorClassIdentifier: 
+  Path: event:/Shops/Popcorn
+  guid: aa127c0d746e484fa9101cd2f2984cf0
+  Banks:
+  - {fileID: 8764585728450922030}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 359026
+--- !u!114 &8649621882538331310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bears/Growling
+  m_EditorClassIdentifier: 
+  Path: event:/Bears/Growling
+  guid: 3aa43963b210304583000c22d1093467
+  Banks:
+  - {fileID: -5715184954279569144}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54048
+--- !u!114 &8693374528121952248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CapuchinMonkeys.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/CapuchinMonkeys.bank
+  Name: CapuchinMonkeys
+  lastModified: 637428626353605051
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8750016545087101971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RollerCoasters/Vehicle
+  m_EditorClassIdentifier: 
+  Path: event:/RollerCoasters/Vehicle
+  guid: 1da4ef535118144080f77f497ec8bf92
+  Banks:
+  - {fileID: -6455962808974151537}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 156000
+--- !u!114 &8764585728450922030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Shops.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Shops.bank
+  Name: Shops
+  lastModified: 637428626356324216
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1

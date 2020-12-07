@@ -69,5 +69,7 @@ This project contains an environment with sounds for our BA3 Sound Design projec
   - [Sounds Effects - Dinner Party Ambience](https://www.youtube.com/watch?v=vKRnApCfO68)
 - Toilet flush
   - [Restroom - toilet - flushing - from 3 feet away perspective](https://www.soundsnap.com/restroom_toilet_flushing_from_3_feet_away_perspective)
+- Video
+  - [Old Sweet Shop (ASMR)](https://www.youtube.com/watch?v=OdNYHT7O1QU)
 - Wheel of fortune
   - [Huvipuiston onnenpyörä, kaksi nuolta. Käynnistys, pyörii, pysähtyy, pallo kuppiin](https://freesound.org/people/YleArkisto/sounds/280197/)

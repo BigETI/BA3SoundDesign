@@ -41,5 +41,5 @@ ehthumbs.db
 fmod_editor.log
 Assets/FMOD/Plugins/Cache.meta
 Assets/FMOD/Plugins/Cache/
-Assets/Plugins.meta
-Assets/Plugins/
+Assets/Plugins/Cache.meta
+Assets/Plugins/Cache/
