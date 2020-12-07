@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117970589904458156}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2749996, y: 1.2, z: 0.45000076}
+  m_LocalPosition: {x: 1.766, y: 1.7, z: 0.531}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5848309077773030271}
@@ -60,8 +60,8 @@ MonoBehaviour:
   eventName: Entrance - Cashing in
   fmodEventPath: event:/Entrances/CashingIn
   isInteractable: 1
-  isPlayingOnStart: 1
-  isLooping: 1
+  isPlayingOnStart: 0
+  isLooping: 0
   volume: 1
   isMuted: 0
 --- !u!1 &1161880401466047762
@@ -156,6 +156,79 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1337218321788691224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 620935217731201073}
+  - component: {fileID: 3174240982660498506}
+  - component: {fileID: 2954088694737918142}
+  m_Layer: 0
+  m_Name: CharacterTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &620935217731201073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337218321788691224}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.054, y: 1.125, z: 0.464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5848309077773030271}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3174240982660498506
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337218321788691224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2954088694737918142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337218321788691224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019adc5f36ec4434fa68a83ddb828ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onTriggerEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6625439815510557847}
+        m_TargetAssemblyTypeName: BA3SoundDesign.Controllers.FMODEventControllerScript,
+          Assembly-CSharp
+        m_MethodName: set_IsPlaying
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &4689946540284728514
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,6 +272,7 @@ Transform:
   - {fileID: 6173983521823979815}
   - {fileID: 1797994358172714093}
   - {fileID: 5405791193402472157}
+  - {fileID: 620935217731201073}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -69,6 +69,30 @@ namespace BA3SoundDesign.Controllers
         private Sprite loudVolumeSprite = default;
 
         /// <summary>
+        /// Muted volume outline sprite
+        /// </summary>
+        [SerializeField]
+        private Sprite mutedVolumeOutlineSprite = default;
+
+        /// <summary>
+        /// Quiet volume outline sprite
+        /// </summary>
+        [SerializeField]
+        private Sprite quietVolumeOutlineSprite = default;
+
+        /// <summary>
+        /// Normal volume outline sprite
+        /// </summary>
+        [SerializeField]
+        private Sprite normalVolumeOutlineSprite = default;
+
+        /// <summary>
+        /// Loud volume outline sprite
+        /// </summary>
+        [SerializeField]
+        private Sprite loudVolumeOutlineSprite = default;
+
+        /// <summary>
         /// Information text
         /// </summary>
         [SerializeField]
@@ -79,6 +103,12 @@ namespace BA3SoundDesign.Controllers
         /// </summary>
         [SerializeField]
         private SpriteRenderer volumeSpriteRenderer = default;
+
+        /// <summary>
+        /// Volume outline sprite renderer
+        /// </summary>
+        [SerializeField]
+        private SpriteRenderer volumeOutlineSpriteRenderer = default;
 
         /// <summary>
         /// Volume text
@@ -208,6 +238,42 @@ namespace BA3SoundDesign.Controllers
         }
 
         /// <summary>
+        /// Muted volume outline sprite
+        /// </summary>
+        public Sprite MutedVolumeOutlineSprite
+        {
+            get => mutedVolumeOutlineSprite;
+            set => mutedVolumeOutlineSprite = value;
+        }
+
+        /// <summary>
+        /// Quiet volume outline sprite
+        /// </summary>
+        public Sprite QuietVolumeOutlineSprite
+        {
+            get => quietVolumeOutlineSprite;
+            set => quietVolumeOutlineSprite = value;
+        }
+
+        /// <summary>
+        /// Normal volume outline sprite
+        /// </summary>
+        public Sprite NormalVolumeOutlineSprite
+        {
+            get => normalVolumeOutlineSprite;
+            set => normalVolumeOutlineSprite = value;
+        }
+
+        /// <summary>
+        /// Loud volume outline sprite
+        /// </summary>
+        public Sprite LoudVolumeOutlineSprite
+        {
+            get => loudVolumeOutlineSprite;
+            set => loudVolumeOutlineSprite = value;
+        }
+
+        /// <summary>
         /// Information text
         /// </summary>
         public TextMeshPro InformationText
@@ -223,6 +289,15 @@ namespace BA3SoundDesign.Controllers
         {
             get => volumeSpriteRenderer;
             set => volumeSpriteRenderer = value;
+        }
+
+        /// <summary>
+        /// Volume outline sprite renderer
+        /// </summary>
+        public SpriteRenderer VolumeOutlineSpriteRenderer
+        {
+            get => volumeOutlineSpriteRenderer;
+            set => volumeOutlineSpriteRenderer = value;
         }
 
         /// <summary>
@@ -300,27 +375,32 @@ namespace BA3SoundDesign.Controllers
                     {
                         informationText.text = looking_at_fmod_event_controller.EventName;
                     }
-                    if (volumeSpriteRenderer)
+                    if (volumeSpriteRenderer && volumeOutlineSpriteRenderer)
                     {
                         if (looking_at_fmod_event_controller.IsMuted || looking_at_fmod_event_controller.IsSoloMuted)
                         {
                             volumeSpriteRenderer.sprite = mutedVolumeSprite;
+                            volumeOutlineSpriteRenderer.sprite = mutedVolumeOutlineSprite;
                         }
                         else if (looking_at_fmod_event_controller.Volume >= 0.75f)
                         {
                             volumeSpriteRenderer.sprite = loudVolumeSprite;
+                            volumeOutlineSpriteRenderer.sprite = loudVolumeOutlineSprite;
                         }
                         else if (looking_at_fmod_event_controller.Volume >= 0.25f)
                         {
                             volumeSpriteRenderer.sprite = normalVolumeSprite;
+                            volumeOutlineSpriteRenderer.sprite = normalVolumeOutlineSprite;
                         }
                         else if (looking_at_fmod_event_controller.Volume > float.Epsilon)
                         {
                             volumeSpriteRenderer.sprite = quietVolumeSprite;
+                            volumeOutlineSpriteRenderer.sprite = quietVolumeOutlineSprite;
                         }
                         else
                         {
                             volumeSpriteRenderer.sprite = mutedVolumeSprite;
+                            volumeOutlineSpriteRenderer.sprite = mutedVolumeOutlineSprite;
                         }
                     }
                     if (volumeText && (lastVolume != looking_at_fmod_event_controller.Volume))

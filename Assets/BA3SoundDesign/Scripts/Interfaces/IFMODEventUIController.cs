@@ -58,6 +58,26 @@ namespace BA3SoundDesign
         Sprite LoudVolumeSprite { get; set; }
 
         /// <summary>
+        /// Muted volume outline sprite
+        /// </summary>
+        Sprite MutedVolumeOutlineSprite { get; set; }
+
+        /// <summary>
+        /// Quiet volume outline sprite
+        /// </summary>
+        Sprite QuietVolumeOutlineSprite { get; set; }
+
+        /// <summary>
+        /// Normal volume outline sprite
+        /// </summary>
+        Sprite NormalVolumeOutlineSprite { get; set; }
+
+        /// <summary>
+        /// Loud volume outline sprite
+        /// </summary>
+        Sprite LoudVolumeOutlineSprite { get; set; }
+
+        /// <summary>
         /// Information text
         /// </summary>
         TextMeshPro InformationText { get; set; }
@@ -66,6 +86,11 @@ namespace BA3SoundDesign
         /// Volume sprite renderer
         /// </summary>
         SpriteRenderer VolumeSpriteRenderer { get; set; }
+
+        /// <summary>
+        /// Volume outline sprite renderer
+        /// </summary>
+        SpriteRenderer VolumeOutlineSpriteRenderer { get; set; }
 
         /// <summary>
         /// Volume text
